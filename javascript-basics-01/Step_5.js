@@ -19,7 +19,7 @@ function multiply(){
     var num1 = document.getElementById("first_number");
     var num2 = document.getElementById("second_number");
 
-    if(!isNaN(num1.value) && !isNaN(num2.value)){
+    if(!isNaN(num1.value) && !isNaN(num2.value) && num1.value != "" && num2.value != ""){
     alert(num1.value * num2.value);
     } else{
         alert("Only numbers are allowed");
