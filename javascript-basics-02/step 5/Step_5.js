@@ -22,24 +22,4 @@ for(var i = 0; i <= allimages.length - 1; i++){
                 break;
         }
     });
-
-    allimages[i].addEventListener('mouseout' , function(){
-        switch(this.id){ 
-            case "image1" :
-              this.src = "images/image1.jpg";
-              break;
-            case "image2" :
-            this.src = "images/image2.jpg";
-                break;
-            case "image3" :
-              this.src = "images/image3.jpg";
-              break;
-            case "image4" :
-                this.src = "images/image4.jpg";
-                break;
-            case "image5" :
-                this.src = "images/image5.jpg";
-                break;
-        }
-    });
 }
