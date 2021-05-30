@@ -1,5 +1,4 @@
 var allimages = document.getElementsByClassName("image");
-// console.log(allimages, allimages.length);
 
 for(var i = 0; i <= allimages.length - 1; i++){
     // console.log(allimages[i]);
